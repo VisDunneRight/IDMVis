@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment-with-locales.min.js"></script>
+</head>
+
+<body>
+  <div style="width:100%; overflow:hidden">
+    <div id="tooltip" style="position:absolute; z-index: 10000;
+    top: -200px; left: -200px;
+    padding: 5px; border-left: 4px solid #a2a2a2; background-color: #f1f1f1;">
+    </div>
+    <div class="row" style="background: #464646;">
+      <div class="btn-toolbar" roll="toolbar" style="padding: 1% 0% 1% 2%;">
+        <div class="btn-group mr-2">
+          <button id="prev-day" type="button" class="btn btn-secondary">
+            &lt&lt
+          </button>
+          <button id="next-day" type="button" class="btn btn-secondary">
+            &gt&gt
+          </button>
+        </div>
+        <div class="input-group mr-3">
+          <span class="input-group-addon">From</span>
+          <input id="start-date" class="form-control" type="date" min="2017-01-24" max="2017-09-24">
+          <span class="input-group-addon">To</span>
+          <input id="end-date" class="form-control" type="date" disabled>
+        </div>
+
+        <div id="1st-align-dropdown" class="dropdown mr-2">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="1st-align-btn" data-toggle="dropdown">
+            1st Align Event
+          </button>
+          <div class="dropdown-menu">
+            <a id="1st-align-none" class="dropdown-item" href="#">None</a>
+            <a id="1st-align-breakfast" class="dropdown-item" href="#">Breakfast</a>
+            <a id="1st-align-lunch" class="dropdown-item" href="#">Lunch</a>
+            <a id="1st-align-dinner" class="dropdown-item" href="#">Dinner</a>
+          </div>
+        </div>
+
+        <div id="2nd-align-dropdown" class="dropdown mr-2">
+          <button class="btn btn-secondary dropdown-toggle disabled" type="button" id="2nd-align-btn" data-toggle="dropdown">
+            2nd Align Event
+          </button>
+          <div class="dropdown-menu">
+            <a id="2nd-align-none" class="dropdown-item" href="#">None</a>
+            <a id="2nd-align-breakfast" class="dropdown-item" href="#">Breakfast</a>
+            <a id="2nd-align-lunch" class="dropdown-item" href="#">Lunch</a>
+            <a id="2nd-align-dinner" class="dropdown-item" href="#">Dinner</a>
+          </div>
+        </div>
+
+        <div id="alignment-selections" class="btn-group mr-3">
+          <button id="no-align" type="button" class="btn btn-secondary disabled" style="display:none">
+            <i class="fa fa-align-center"></i>
+          </button>
+          <button id="left-align" type="button" class="btn btn-secondary disabled">
+            <i class="fa fa-align-left"></i>
+          </button>
+          <button id="right-align" type="button" class="btn btn-secondary disabled">
+            <i class="fa fa-align-right"></i>
+          </button>
+          <button id="justify-align" type="button" class="btn btn-secondary disabled">
+            <i class="fa fa-align-justify"></i>
+          </button>
+        </div>
+
+      </div>
+
+      <nav class="nav" style="padding: 1% 0% 1% 6%;">
+        <a class="nav-link active" href="index.html" style="color:white;">Visualization</a>
+        <a class="nav-link" href="dayByMeal.html" style="color:white;">Day By Meal</a>
+        <a class="nav-link" href="about.html" style="color:white;">About</a>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-8">
+        <div id="vis-canvas-container" style="width:97%">
+          <svg id="vis-canvas"></svg>
+        </div>
+
+        <div id="detailed-canvas-container" style="width:100%">
+          <div class="detailed-event-tooltip-container">
+            <div class="detailed-event-tooltip" style="position:absolute;
+            top: 500; left: 100; margin-left: 30px;font-size: 0.8em; line-height: 0.8em;
+            padding: 5px; border-left: 5px solid #a2a2a2; background-color: #f1f1f1;">
+              <p class="value-1"></p>
+              <p class="value-2"></p>
+            </div>
+          </div>
+          <div class="detailed-tooltip-container">
+            <div class="detailed-tooltip" style="position:absolute;
+            top: 500; left: 100; margin-left: 30px;font-size: 0.8em; line-height: 0.8em;
+            padding: 5px; border-left: 5px solid #a2a2a2; background-color: #f1f1f1;">
+              <p class="value-1"></p>
+              <p class="value-2"></p>
+              <p class="value-3"></p>
+              <p class="value-4"></p>
+              <p class="value-5"></p>
+              <p class="value-6"></p>
+              <p class="value-7"></p>
+            </div>
+          </div>
+          <div class="detailed-date-legend" style="position: absolute; padding: 1% 5%; font-size: 2.5em; color: #efefef; z-index: -1000;"></div>
+          <svg id="detailed-canvas"></svg>
+
+        </div>
+      </div>
+
+      <div class="col-4" style="background: #fbfbfb; border-left: 6px solid #f5f5f5;">
+        <div id="summary-container" style="width:100%">
+          <svg id="stat-canvas" style="font-size: 0.8em;">
+            <g id='basal-violin'>
+              <text>No Data</text>
+              <text transform = "translate (10,225)"; style="padding: 5px;">Basal</text>
+              <!-- <text transform = "translate (10,270)"; style="padding: 5px;">(units)</text> -->
+            </g>
+            <g id='bolus-violin'>
+              <text>No Data</text>
+              <text transform = "translate (10,225)"; style="padding: 5px;">Bolus</text>
+              <!-- <text transform = "translate (10,270)"; style="padding: 5px;">(units)</text> -->
+            </g>
+            <text transform = "translate (200,270)"; style="font-size:1.2em; padding: 5px;">Basal and Bolus (u)</text>
+
+            <g id='Breakfast-Humalog-violin'>
+              <text>No Data</text>
+              <text transform = "translate (0,170)"; style="padding: 5px;">Breakfast</text>
+              <!-- <text transform = "translate (0,185)"; style="padding: 5px;">Insulin</text>
+              <text transform = "translate (0,200)"; style="padding: 5px;">(units)</text> -->
+            </g>
+            <g id='Lunch-Humalog-violin'>
+              <text>No Data</text>
+              <text transform = "translate (10,170)"; style="padding: 5px;">Lunch</text>
+              <!-- <text transform = "translate (10,185)"; style="padding: 5px;">Insulin</text>
+              <text transform = "translate (10,200)"; style="padding: 5px;">(units)</text> -->
+            </g>
+            <g id='Dinner-Humalog-violin'>
+              <text>No Data</text>
+              <text transform = "translate (5,170)"; style="padding: 5px;">Dinner</text>
+              <!-- <text transform = "translate (5,185)"; style="padding: 5px;">Insulin</text>
+              <text transform = "translate (5,200)"; style="padding: 5px;">(units)</text> -->
+            </g>
+            <g id='Sugar-Humalog-violin'>
+              <text>No Data</text>
+              <text transform = "translate (0,170)"; style="padding: 5px;">SugarTreat</text>
+              <!-- <text transform = "translate (0,185)"; style="padding: 5px;">Insulin</text>
+              <text transform = "translate (0,200)"; style="padding: 5px;">(units)</text> -->
+            </g>
+            <g id='Bedtime-Humalog-violin'>
+              <text>No Data</text>
+              <text transform = "translate (0,170)"; style="padding: 5px;">Bedtime</text>
+              <!-- <text transform = "translate (0,185)"; style="padding: 5px;">Insulin</text>
+              <text transform = "translate (0,200)"; style="padding: 5px;">(units)</text> -->
+            </g>
+
+            <text transform = "translate (230,530)"; style="font-size:1.2em; padding: 5px;">Insulin (u)</text>
+
+            <g id='Breakfast-MealCarbs-violin'>
+              <text>No Data</text>
+              <text transform = "translate (0,170)"; style="padding: 5px;">Breakfast</text>
+              <!-- <text transform = "translate (0,185)"; style="padding: 5px;">Carbs</text> -->
+            </g>
+            <g id='Lunch-MealCarbs-violin'>
+              <text>No Data</text>
+              <text transform = "translate (10,170)"; style="padding: 5px;">Lunch</text>
+              <!-- <text transform = "translate (10,185)"; style="padding: 5px;">Carbs</text> -->
+            </g>
+            <g id='Dinner-MealCarbs-violin'>
+              <text>No Data</text>
+              <text transform = "translate (5,170)"; style="padding: 5px;">Dinner</text>
+              <!-- <text transform = "translate (5,185)"; style="padding: 5px;">Carbs</text> -->
+            </g>
+            <g id='Sugar-MealCarbs-violin'>
+              <text>No Data</text>
+              <text transform = "translate (0,170)"; style="padding: 5px;">SugarTreat</text>
+              <!-- <text transform = "translate (0,185)"; style="padding: 5px;">Carbs</text> -->
+            </g>
+            <g id='Bedtime-MealCarbs-violin'>
+              <text>No Data</text>
+              <text transform = "translate (0,170)"; style="padding: 5px;">Bedtime</text>
+              <!-- <text transform = "translate (0,185)"; style="padding: 5px;">Carbs</text> -->
+            </g>
+            <text transform = "translate (200,790)"; style="font-size:1.2em; padding: 5px;">Carbohydrates (grams)</text>
+
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src='t1d.js'></script>
+
+</body>
+
+</html>

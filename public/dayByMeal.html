@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment-with-locales.min.js"></script>
+  <style>
+    .date4Table, .meal4Table {width: 150px;}
+    .glucose4Table {width: 100px;}
+    td {width: 30px;}
+  </style>
+</head>
+
+<body style="margin:1%">
+  <div class="row">
+    <div class="col-12">
+      <div class="btn-toolbar" rool="toolbar">
+        <div class="btn-group mr-2">
+          <button id="prev-day" type="button" class="btn btn-secondary">
+            &lt&lt
+          </button>
+          <button id="next-day" type="button" class="btn btn-secondary">
+            &gt&gt
+          </button>
+        </div>
+        <div class="input-group mr-3">
+          <span class="input-group-addon">From</span>
+          <input id="start-date" class="form-control" type="date" min="2017-01-24" max="2017-09-24">
+          <span class="input-group-addon">To</span>
+          <input id="end-date" class="form-control" type="date">
+        </div>
+      </div>
+
+      <!-- <div>
+        <svg id="dayByMeal-canvas" , style="width:1024px;height:500px"></svg>
+        <div id="tooltip" style="position:absolute"></div>
+      </div> -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <table id="day-by-meal-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th colspan=3 class="meal4Table">Breakfast</th>
+            <th colspan=3 class="meal4Table">Lunch</th>
+            <th colspan=3 class="meal4Table">Dinner</th>
+            <th colspan=3 class="meal4Table">Bedtime</th>
+          </tr>
+          <tr>
+            <th>Date</th>
+            <th>Insulin</th>
+            <th>Carbs</th>
+            <th>Glucose</th>
+            <th>Insulin</th>
+            <th>Carbs</th>
+            <th>Glucose</th>
+            <th>Insulin</th>
+            <th>Carbs</th>
+            <th>Glucose</th>
+            <th>Insulin</th>
+            <th>Carbs</th>
+            <th>Glucose</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src='tbm.js'></script>
+
+</body>
+
+</html>

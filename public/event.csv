@@ -1,0 +1,209 @@
+time,Caregiver,Glucose,MealCarbs,Meal,Humalog,WhatEating,Notes
+2017-08-23 05:54:25,Dad,293.0,,,1.43,,
+2017-08-23 07:45:00,Mom,162.0,16.0,Breakfast,0.63,Tofu milk carrots eggs,"No correction, insulin on board and still coming down "
+2017-08-23 12:49:00,Caregiver1,149.0,43.0,Lunch,1.51,"Broccoli, Ezekiel bread and sun butter, blueberries, milk",
+2017-08-23 15:54:23,Caregiver1,206.0,19.0,Afternoon snack,1.24,Blueberries cheese wheat thins peanuts,
+2017-08-23 19:40:23,Dad,111.0,90.0,Dinner,2.25,Corn porridge,
+2017-08-23 22:55:18,Mom,151.0,,,,,"Not correcting, hoping to just see how new basal works from stable starting point"
+2017-08-24 05:14:27,Dad,238.0,,,0.96,,
+2017-08-24 07:49:07,Mom,144.0,29.0,Breakfast,1.35,Eggs apples chickpeas almonds,
+2017-08-24 10:32:34,Caregiver2,95.0,6.0,Sugar to treat,,Triscuits,
+2017-08-24 11:03:55,Caregiver2,91.0,,,,,
+2017-08-24 12:37:36,Caregiver2,,49.0,Lunch,1.29,"Bread,sunbutter,carrots,chickpeas,milk,cheese",
+2017-08-24 15:41:41,Caregiver2,323.0,,,1.72,,
+2017-08-24 18:01:50,Mom,115.0,49.0,Dinner,1.35,Spelt risotto tofu green beans milk,
+2017-08-24 19:54:01,Mom,89.0,10.0,Sugar to treat,,Ice cream,"Heading low, allowing a treat... dosing for 5g afterwards"
+2017-08-24 19:54:57,Mom,,,,0.13,,Covering 5g of the ice cream
+2017-08-24 20:04:58,Mom,,24.0,Dinner,0.63,"Milk, cc toast",Bedtime snack
+2017-08-24 23:11:21,Mom,300.0,,,1.54,,
+2017-08-25 06:53:55,Dad,242.0,,,1.02,,Ketones .2
+2017-08-25 07:41:55,Mom,,31.0,Breakfast,1.19,Chickpeas eggs milk apple,
+2017-08-25 12:14:42,Caregiver1,265.0,31.0,Lunch,2.09,,Bubble in luer lock
+2017-08-25 14:15:31,Caregiver1,305.0,,,1.17,,
+2017-08-25 15:55:13,Caregiver1,121.0,8.0,Afternoon snack,0.21,Peanuts blueberries cheese,
+2017-08-25 18:24:01,Caregiver1,102.0,,,,,Checking b/c of cgm
+2017-08-25 18:40:39,Caregiver1,,77.0,Dinner,1.93,"Ezekiel pasta, sauce and cheese, broccoli , carrots, milk, 1/4 cup ice cream",
+2017-08-25 18:57:51,Caregiver1,116.0,,,,,"Mid-dinner, cgm says 62"
+2017-08-25 21:04:12,Caregiver1,302.0,,,1.3,,
+2017-08-26 00:03:12,Caregiver1,252.0,,,1.06,,
+2017-08-26 03:03:52,Caregiver1,163.0,,,,,
+2017-08-26 05:16:16,Caregiver1,127.0,,,,,
+2017-08-26 07:54:25,Caregiver1,145.0,34.0,Breakfast,1.66,"Ezekiel bread w/cc, blueberries broccoli, broccoli slaw and milk",
+2017-08-26 12:33:20,Dad,220.0,45.0,,2.1,"Pomegranate seeds, broccoli slaw, peanut vinegarette, Ezekiel bread, cream cheese, almonds, milk",
+2017-08-26 14:04:59,Dad,74.0,10.0,Sugar to treat,,"Triscuits, glucose tablet",
+2017-08-26 20:19:01,Mom,,11.0,Dinner,0.29,Cc toast ,
+2017-08-26 23:19:40,Mom,204.0,,,0.72,,
+2017-08-27 08:52:15,Mom,166.0,36.0,Breakfast,1.89,"Grapefruit and sugar, yogurt, cheese, milk, broccoli slaw, dressing ",
+2017-08-27 11:48:12,Dad,85.0,67.0,Lunch,1.53,"Parmesan, carrots, Caesar dressing, chili, Ezekiel pasta",
+2017-08-27 18:12:47,Mom,76.0,8.0,Sugar to treat,,Milk,
+2017-08-27 19:20:00,Mom,,41.0,Dinner,1.03,Pasta potatoes tofu pesto green beans dressing,
+2017-08-27 21:29:14,Dad,110.0,,,,,
+2017-08-28 08:13:23,Mom,78.0,31.0,Breakfast,1.02,Milk chickpeas green beans raspberries triscuit,
+2017-08-28 10:28:14,Caregiver1,227.0,,,,,"Calibrated cgm, which wanted a calibration"
+2017-08-28 12:47:27,Caregiver1,63.0,6.0,Sugar to treat,,,
+2017-08-28 13:17:39,Caregiver1,130.0,40.0,Lunch,1.05,"Ezekiel bread, sun butter, raspberries, blueberries, green beans, milk",We didn't give correction as Remy was coming up from a low.
+2017-08-28 13:57:17,Caregiver1,130.0,,,,,Dexcom said Remy was heading low.
+2017-08-28 16:05:51,Caregiver1,136.0,,Afternoon snack,0.56,Blueberries peanuts cheese,
+2017-08-28 17:01:35,Caregiver1,126.0,,,,,Checking before heading out
+2017-08-28 19:00:59,Mom,93.0,49.0,,1.15,Ezekiel pasta pesto green beans tofu potatoes,
+2017-08-28 20:37:20,Mom,,5.0,Dinner,0.13,Honey roasted peanuts and cheese ,
+2017-08-29 06:35:41,Dad,227.0,,,0.98,,
+2017-08-29 07:58:58,Mom,140.0,29.0,Breakfast,1.12,Eggs milk pomegranate seeds chickpeas,
+2017-08-29 11:50:42,Caregiver2,140.0,47.0,Lunch,1.55,"Pasta,pesto,broccoli slaw,caesar dressing,raspberries,milk,string cheese",
+2017-08-29 15:38:21,Caregiver2,255.0,7.0,Afternoon snack,1.37,"Peanuts,raspberries",
+2017-08-29 19:41:40,Dad,77.0,46.0,Dinner,0.97,"Peanuts, yogurt, stevia, pasta, green beans, triscuit",
+2017-08-30 07:55:00,Mom,145.0,21.0,Breakfast,1.16,"Broccoli slaw and dressing, cheese, strawberries milk",
+2017-08-30 12:52:18,Caregiver1,85.0,54.0,Lunch,1.3,"Ezekiel
+Bread sun butter blueberries broccoli slaw milk",
+2017-08-30 13:31:03,Caregiver1,143.0,,,,,Cgm giving low warnings
+2017-08-30 15:59:35,Caregiver1,200.0,16.0,Afternoon snack,1.19,Peanuts carrots cheese wheat thins,
+2017-08-30 19:45:00,Mom,161.0,72.0,Dinner,2.27,Chili chips broccoli slaw milk pomegranate seeds ,
+2017-08-30 23:50:38,Mom,290.0,,,1.45,,
+2017-08-31 08:06:11,Mom,88.0,19.0,Breakfast,0.64,Eggs carrots peanut butter strawberries,
+2017-08-31 11:50:49,Caregiver2,162.0,46.0,Lunch,1.69,"Pasta,pesto,raspberries,carrots,milk,Caesar dressing",
+2017-08-31 15:15:39,Caregiver2,263.0,34.0,Afternoon snack,2.14,"Triscuits,grapes,cheese",
+2017-08-31 18:35:00,Dad,184.0,37.0,Dinner,1.58,"Carrots, caesar dressing, eggs, tortilla, cream cheese, peanuts",
+2017-08-31 20:20:00,Dad,,32.0,Dinner,,"Almonds, tortilla, cream cheese",Check pump for humalog
+2017-08-31 21:00:00,Dad,,6.0,Sugar to treat,,Triscuits,To keep him stable
+2017-08-31 23:50:41,Dad,258.0,,,1.05,,Slightly lower than 1.18 dose as he is still in post meal spike
+2017-09-01 06:31:32,Dad,387.0,,,2.46,,"Extra to properly bring him down, ketones .3"
+2017-09-01 12:25:00,Caregiver1,147.0,36.0,Lunch,1.31,Ezekiel bread w/raisins strawberries green beans milk hb egg,
+2017-09-01 15:49:40,Caregiver1,241.0,20.0,Afternoon snack,1.61,Peanuts blueberries wheat thins cheese,
+2017-09-01 18:38:27,Caregiver1,115.0,63.0,Dinner,1.58,Pasta sauce carrots broccoli tofu soy sauce milk,
+2017-09-02 01:12:57,Caregiver1,189.0,,Nothing,0.56,,
+2017-09-02 03:03:09,Caregiver1,149.0,,Nothing,,,"Checked because cgm said 113, and cgm was lower than actual at 1am. Recalibrated cgm just now. "
+2017-09-02 06:51:41,Caregiver1,120.0,,,,,Getting ready for a bath
+2017-09-02 07:41:33,Caregiver1,138.0,38.0,Breakfast,1.75,Ezekiel raisin bread margarine blueberries hard boiled egg milk,
+2017-09-02 10:00:39,Caregiver1,293.0,,,,,
+2017-09-02 13:12:00,Dad,85.0,52.0,Lunch,1.25,"Smoothie, Ezekiel bread, cream cheese, peanuts, tofu",
+2017-09-02 16:52:11,Dad,214.0,,,0.88,,
+2017-09-02 18:30:20,Dad,63.0,6.0,Sugar to treat,,Glucose tablet,
+2017-09-02 18:45:18,Mom,,75.0,Dinner,1.88,Smoothie Ezekiel pasta sauce black beans tofu snap peas,
+2017-09-02 20:24:49,Dad,,43.0,Bedtime snack,1.13,"Carrots, tortilla, Caesar dressing, cream cheese, ice cream",
+2017-09-02 22:16:54,Mom,176.0,,,0.14,,
+2017-09-03 03:57:33,Dad,329.0,,,1.7,,
+2017-09-03 07:42:04,Dad,243.0,,,1.0,,
+2017-09-03 09:10:08,Mom,53.0,4.0,Sugar to treat,,Glucose tabs,Low during breakfast--also has waffle working
+2017-09-03 09:23:37,Mom,132.0,,,,,
+2017-09-03 12:50:37,Dad,76.0,5.0,Sugar to treat,,"Glucose tablet, triscuit",
+2017-09-03 13:05:45,Mom,80.0,28.0,Lunch,0.74,Southwestern salad and milk at za,
+2017-09-03 13:22:51,Mom,,16.0,Lunch,0.5,Pizza,Extended - half 1.5 hours later
+2017-09-03 13:32:18,Mom,,16.0,Lunch,0.42,Pizza slice,
+2017-09-03 15:34:08,Dad,340.0,,,1.48,,
+2017-09-03 18:09:04,Dad,206.0,,,0.57,,
+2017-09-03 19:42:43,Dad,153.0,65.0,Dinner,1.93,"Stew, salad, caesar dressing, milk, potato dish",Small amount of potatoes as a birthday celebration
+2017-09-03 21:07:21,Mom,73.0,9.0,Sugar to treat,,2g glucose and half cup milk,
+2017-09-04 07:55:41,Mom,151.0,19.0,Breakfast,1.08,"Eggs carrot tofu scramble, Ezekiel bread and cc",
+2017-09-04 12:15:01,Caregiver1,325.0,28.0,Lunch,2.38,Green beans strawberries blueberries cheese milk salad,Remy's cold is accelerating.
+2017-09-04 15:41:32,Caregiver1,219.0,20.0,Afternoon snack,1.42,"Sun butter toast, blueberries, Swiss cheese",
+2017-09-04 18:05:00,Dad,,56.0,Dinner,,"Salad, stew, cheese, milk",
+2017-09-04 20:19:59,Dad,241.0,,,0.89,,
+2017-09-04 20:26:15,Dad,,14.0,Bedtime snack,0.39,Snack mix,
+2017-09-04 22:10:06,Mom,83.0,8.0,Sugar to treat,,bite of biscuit and 1/2 c milk,still falling a bit so treating pre-emptively
+2017-09-05 07:30:00,Mom,135.0,10.0,Breakfast,0.62,Egg chickpea green bean omelette ,
+2017-09-05 11:50:00,Nurse,169.0,54.0,Lunch,2.07,"Stew, chickpeas, tofu, cheese",Do I need to put the Humalog units given in this form?
+2017-09-05 15:10:44,Caregiver2,212.0,,,,,
+2017-09-05 18:45:00,Mom,62.0,4.0,Sugar to treat,,,
+2017-09-05 19:00:00,Mom,,50.0,Dinner,1.39,Salad tofu pasta sauce Parmesan milk,
+2017-09-05 23:07:25,Mom,190.0,,,0.66,,
+2017-09-06 07:44:56,Mom,175.0,10.0,Breakfast,0.9,"egg, green bean, chickpea omelette",
+2017-09-06 09:15:00,Nurse,178.0,,Nothing,,,"Declined snack, introductory day at PE"
+2017-09-06 10:00:00,Nurse,201.0,,Nothing,,,Post PE check
+2017-09-06 11:55:00,Nurse,188.0,63.0,Lunch,1.85,"chickpeas, southwest salad, tortilla, cheese",
+2017-09-06 15:30:46,Caregiver1,321.0,17.0,Afternoon snack,2.03,Peanuts strawberries wheat thins,Ketones0.2
+2017-09-06 17:45:17,Caregiver1,126.0,,,,,
+2017-09-06 18:36:00,Dad,78.0,5.0,Sugar to treat,,"Glucose tablet, triscuits",
+2017-09-06 19:40:00,Dad,110.0,65.0,Dinner,1.88,"Tortilla, cream cheese, chickpeas, Caesar salad, strawberries, milk",
+2017-09-06 20:21:31,Dad,,19.0,Bedtime snack,0.53,"Wheat thins, cheese",
+2017-09-06 23:36:33,Mom,225.0,,,0.99,,
+2017-09-07 07:19:48,Mom,137.0,10.0,Breakfast,0.64,Egg green bean chickpea omelette,
+2017-09-07 12:00:00,Nurse,210.0,30.0,Lunch,1.64,"Carrots, tofu, tortilla, cream cheese",
+2017-09-07 15:35:00,Caregiver2,275.0,23.0,Afternoon snack,1.9,"Tortilla, cream cheese",
+2017-09-07 17:16:14,Caregiver2,71.0,6.0,,,"1 glucose tab, 2 triscuits",
+2017-09-07 19:45:00,Dad,149.0,45.0,Dinner,1.59,"Carrots, chickpeas, tofu, cheese, banana",
+2017-09-07 22:47:29,Mom,158.0,,,0.36,,
+2017-09-08 04:51:46,Dad,94.0,7.0,Sugar to treat,,"Glucose tablet, triscuit",Falling
+2017-09-08 07:51:42,Mom,147.0,,,0.33,,
+2017-09-08 08:07:27,Mom,,16.0,Breakfast,0.62,Egg cauliflower sweet potato green bean chickpea,
+2017-09-08 11:50:00,Nurse,185.0,27.0,Lunch,1.38,"Cheese, carrots, peas, tofu, soy sauce, chickpeas",
+2017-09-08 13:24:44,Nurse,87.0,,Nothing,,,Did a BG check because his number was 73 on his BG monitor
+2017-09-08 15:46:44,Caregiver1,105.0,10.0,Afternoon snack,0.32,Cheese edamame strawberries,
+2017-09-08 19:08:42,Caregiver1,94.0,65.0,Dinner,1.77,Pasta sauce tofu green beans carrots milk,
+2017-09-08 21:09:09,Caregiver1,,6.0,Other,0.17,1/2 c milk,
+2017-09-08 23:12:54,Caregiver1,187.0,,,0.59,,
+2017-09-09 03:14:48,Caregiver1,206.0,,,0.81,,
+2017-09-09 08:15:00,Caregiver1,151.0,22.0,Breakfast,1.2,Eggs tofu green beans northern beans milk,
+2017-09-09 12:28:29,Dad,228.0,,,0.89,,
+2017-09-09 12:53:02,Dad,,30.0,Lunch,0.88,,
+2017-09-09 13:58:31,Dad,,19.0,,0.56,,Second part of lunch
+2017-09-09 17:30:00,Mom,,40.0,Dinner,1.11,pizza and popcorn at Isaac's party,split dose - half in 90min
+2017-09-09 18:00:00,Mom,,20.0,Dinner,0.67,ice cream cake at Isaac's party,dosed for 24c but after checking was actually 20.
+2017-09-09 20:01:19,Dad,,36.0,Dinner,1.0,"Pizza, green beans, salad",
+2017-09-10 08:30:00,Mom,114.0,37.0,Breakfast,1.64,"Grapefruit, milk, Ezekiel bread and cc",
+2017-09-10 12:52:53,Dad,,20.0,Exercise snack,,"Glucose tablets, triscuits","Vastly varying glucose meter results, 86-150. CGM said 75"
+2017-09-10 15:33:57,Dad,136.0,26.0,Afternoon snack,1.01,"Hummus, pita, creme lemon thing",
+2017-09-10 16:26:41,Mom,97.0,6.0,Exercise snack,,Triscuit,
+2017-09-10 19:11:48,Mom,200.0,47.0,Dinner,2.0,"Polenta dish, spanakopita, milk",
+2017-09-10 19:37:07,Dad,,19.0,Dinner,0.53,Egg scramble,
+2017-09-11 02:46:20,Dad,249.0,,,1.22,,
+2017-09-11 11:50:00,Nurse,128.0,28.0,Lunch,1.1,,"Remy felt low, a bit shaky at this time.  "
+2017-09-11 13:30:24,Nurse,210.0,,Nothing,,,PE check.  Declined snack before PE
+2017-09-11 14:22:33,Nurse,151.0,,Nothing,,,post PE check
+2017-09-11 15:47:49,Caregiver1,147.0,24.0,Afternoon snack,1.04,"Sugar snap peas, peanut butter on English muffin",
+2017-09-11 19:10:00,Dad,164.0,34.0,Dinner,1.66,"Egg dish, peas, chickpeas, watermelon",
+2017-09-11 19:47:54,Dad,34.0,16.0,Sugar to treat,,Glucose tablets,HOW
+2017-09-11 20:19:52,Dad,219.0,55.0,Dinner,1.53,"Peanuts, crackers, apple sauce",Faster acting than normal initially in low -- overshot
+2017-09-11 20:43:01,Dad,,19.0,Dinner,0.53,Cashews,
+2017-09-11 23:05:27,Mom,217.0,,,0.72,,Still a bit iob
+2017-09-12 02:40:20,Dad,314.0,,,1.43,,
+2017-09-12 05:45:24,Dad,227.0,,,1.01,,
+2017-09-12 07:51:18,Mom,174.0,35.0,Breakfast,1.74,Grapefruit Ezekiel bread cc milk,
+2017-09-12 12:00:00,Nurse,123.0,30.0,Lunch,1.04,,Smooth sailing!
+2017-09-12 15:50:50,Caregiver2,95.0,21.0,Afternoon snack,0.59,"English muffin, cream cheese",
+2017-09-12 19:45:44,Mom,140.0,54.0,Dinner,1.78,Spanakopita chickpeas watermelon potato patty,
+2017-09-12 23:48:36,Mom,175.0,,,0.52,,
+2017-09-13 03:55:59,Dad,101.0,,,,,
+2017-09-13 08:00:09,Mom,90.0,37.0,Breakfast,1.47,"Grapefruit and 2g sugar, Ezekiel bread and cc, milk",
+2017-09-13 15:50:36,Caregiver1,90.0,27.0,Afternoon snack,0.72,"Milk,  English muffin and cream cheese, sugar snap peas",
+2017-09-13 19:40:00,Dad,187.0,61.0,Dinner,2.29,"Chickpeas, broccoli, peanuts, English muffin, cream cheese, watermelon",
+2017-09-13 22:00:00,Dad,73.0,12.0,Sugar to treat,,Milk,
+2017-09-13 22:26:17,Mom,53.0,6.0,Sugar to treat,,,
+2017-09-14 12:00:00,Nurse,,37.0,Lunch,1.42,,
+2017-09-14 17:22:12,Mom,79.0,6.0,Exercise snack,,Triscuits,
+2017-09-14 20:00:00,Dad,257.0,23.0,Bedtime snack,1.93,"Tortilla, cream cheese",Bg higher
+2017-09-14 20:25:23,Dad,294.0,,,,,
+2017-09-14 20:27:41,Dad,,17.0,,0.47,"Watermelon, peanuts",
+2017-09-15 04:08:55,Dad,95.0,6.0,Sugar to treat,,Triscuits,
+2017-09-15 08:05:39,Mom,151.0,20.0,Breakfast,1.18,Eggs sweet potato chickpea cauliflower,
+2017-09-15 12:00:00,Nurse,148.0,27.0,Lunch,1.12,,
+2017-09-15 15:38:46,Caregiver1,93.0,25.0,Afternoon snack,0.69,Blueberries snap peas peanuts milk,
+2017-09-15 19:41:15,Caregiver1,98.0,59.0,Dinner,1.63,Tofu sauce pasta broccoli milk,
+2017-09-15 21:50:24,Caregiver1,83.0,10.0,Sugar to treat,,Sugar tablet and 1/2 C milk,
+2017-09-16 01:39:41,Caregiver1,182.0,,,0.58,,
+2017-09-16 02:53:05,Caregiver1,186.0,,,,,"I don't know why he hasn't come down. Still insulin on board. Remy definitely had a cold, maybe that's part of it?"
+2017-09-16 08:15:00,Caregiver1,114.0,30.0,Breakfast,1.35,Milk egg tofu green beans chickpeas blueberries,
+2017-09-16 12:15:47,Dad,118.0,32.0,,0.79,"Apple, broccoli, chickpeas, tofu",Dosed for 27 after exercise
+2017-09-16 14:10:18,Dad,,16.0,Lunch,0.47,,
+2017-09-16 14:55:19,Dad,,12.0,Sugar to treat,,"Glucose tablets, triscuits",
+2017-09-16 16:48:06,Dad,,3.0,Sugar to treat,,Triscuits,
+2017-09-16 17:25:31,Dad,,3.0,Sugar to treat,,Triscuit,
+2017-09-16 21:09:10,Dad,90.0,7.0,Sugar to treat,,"glucose tablets, triscuit",
+2017-09-17 04:43:15,Dad,263.0,,,1.35,,
+2017-09-17 08:00:00,Mom,89.0,23.0,Breakfast,0.6,"egg scramble with green beans, chickpeas, & sweet potato","a little underdosed, still possibly more sensitive"
+2017-09-17 09:44:52,Dad,89.0,3.0,Sugar to treat,,Triscuit,
+2017-09-17 10:35:44,Dad,,31.0,Other,1.21,"Watermelon, baked good",
+2017-09-17 18:50:25,Dad,,3.0,Sugar to treat,,Triscuit,
+2017-09-17 19:07:33,Dad,68.0,79.0,Dinner,2.19,"Chili, broccoli, watermelon, half biscuit",
+2017-09-18 08:00:00,Mom,104.0,20.0,Breakfast,0.86,"egg scramble with broccoli, chickpeas, & sweet potato",
+2017-09-18 12:00:00,Nurse,118.0,70.0,Lunch,2.19,,
+2017-09-18 13:30:00,Nurse,155.0,6.0,Exercise snack,,2 triscuits,
+2017-09-18 14:19:46,Nurse,134.0,,Nothing,,,
+2017-09-18 16:22:20,Caregiver1,200.0,19.0,Afternoon snack,1.25,Milk blueberries cheese peanuts,
+2017-09-18 18:24:18,Caregiver1,381.0,20.0,Dinner,2.04,"56 g peanuts, 30 g pasta, sauce and tofu, 150 g green beans, propel",Will plan to wait 45 minutes
+2017-09-18 19:45:00,Dad,381.0,,,2.0,,Ketones 1.7. replacing dinner dose
+2017-09-18 20:19:34,Dad,390.0,,,2.5,,"Ketones 2.0. .5u, 2u for ketones"
+2017-09-18 21:22:04,Dad,223.0,,,,,Ketones .7
+2017-09-18 21:24:52,Mom,,5.0,Bedtime snack,0.14,broccoli (bedtime snack),
+2017-09-18 22:30:00,Mom,61.0,7.0,Sugar to treat,,2g glucose + 1/2c milk,
+2017-09-18 22:50:36,Mom,67.0,4.0,Sugar to treat,,glucose,
+2017-09-18 23:51:04,Mom,69.0,7.0,Sugar to treat,,4g sugar and peanuts,
