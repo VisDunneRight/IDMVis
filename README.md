@@ -4,6 +4,11 @@ It is designed to help clinicians perform temporal inference tasks:
 specifically for recommending adjustments to patient insulin protocol, diet, and behavior. 
 IDMVis is built with JavaScript and the d3.js library.
 
+# Setup
+- Open terminal/command prompt.
+- Fork and clone this repository to your local system in a dedicated folder.
+- At the command line, run python -m http.server with the version Python 3. 
+
 # Authors 
 Yixuan Zhang, Kartik Chanana, and Cody Dunne
 
