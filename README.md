@@ -9,6 +9,9 @@ IDMVis is built with JavaScript and the d3.js library.
 - Fork and clone this repository to your local system in a dedicated folder.
 - At the command line, run python -m http.server with the version Python 3. 
 
+# Legend 
+![IDMvis](https://github.com/VisDunneRight/IDMVis/blob/master/public/T1D_about.png?raw=true "Title")
+
 # Authors 
 Yixuan Zhang, Kartik Chanana, and Cody Dunne
 
