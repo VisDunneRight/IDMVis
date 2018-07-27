@@ -7,7 +7,9 @@ IDMVis is built with JavaScript and the [d3.js](https://d3js.org/) library.
 # Setup
 - Open terminal/command prompt.
 - Fork and clone this repository to your local system in a dedicated folder.
+- Change to the public directory.
 - At the command line, run python -m http.server with the version Python 3. 
+- Visit [http://localhost:8000/](http://localhost:8000/) in your browser.
 
 # Legend 
 ![IDMvis](https://github.com/VisDunneRight/IDMVis/blob/master/public/T1D_about.png?raw=true "Title")
