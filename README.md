@@ -8,7 +8,7 @@ IDMVis is built with JavaScript and the [d3.js](https://d3js.org/) library.
 You can see a live demo at [visdunneright.github.io/IDMVis/public/](https://visdunneright.github.io/IDMVis/public/).
 
 
-[![IDMVis Demo Video](youtube_video.png)](https://youtu.be/Omc2cNqG7b4 "IDMVis demo video")
+[![IDMVis Demo Video](youtube_image.png)](https://youtu.be/Omc2cNqG7b4 "IDMVis demo video")
 
 # Setup
 - Open terminal/command prompt.
