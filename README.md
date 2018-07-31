@@ -5,8 +5,7 @@ specifically for recommending adjustments to patient insulin protocol, diet, and
 IDMVis is built with JavaScript and the [d3.js](https://d3js.org/) library.
 
 # Demo
-You can see a live demo at [visdunneright.github.io/IDMVis/public/](https://visdunneright.github.io/IDMVis/public/).
-
+You can see a live demo at [visdunneright.github.io/IDMVis/public/](https://visdunneright.github.io/IDMVis/public/) and watch our demo video:
 
 [![IDMVis Demo Video](youtube_image.png)](https://youtu.be/Omc2cNqG7b4 "IDMVis demo video")
 
