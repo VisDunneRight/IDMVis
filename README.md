@@ -20,7 +20,7 @@ You can see a live demo at [visdunneright.github.io/IDMVis/public/](https://visd
 ![IDMvis](https://github.com/VisDunneRight/IDMVis/blob/master/public/T1D_about.png?raw=true "Title")
 
 # Preprint 
-
+https://github.com/VisDunneRight/IDMVis/blob/master/IDMVis_IEEEVIS18_preprint.pdf
 
 # Authors 
 Yixuan Zhang, Kartik Chanana, and Cody Dunne
