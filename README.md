@@ -19,6 +19,9 @@ You can see a live demo at [visdunneright.github.io/IDMVis/public/](https://visd
 # Legend 
 ![IDMvis](https://github.com/VisDunneRight/IDMVis/blob/master/public/T1D_about.png?raw=true "Title")
 
+# Preprint 
+
+
 # Authors 
 Yixuan Zhang, Kartik Chanana, and Cody Dunne
 
