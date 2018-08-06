@@ -155,7 +155,7 @@ export default class DetailedVisualization {
       .attr('stroke', (d) => {
         // if (d.source === 'tidepool') return 'none';
         // if (d.source === 'nightscout') return 'none';
-        if (d.value > 200) return this.colors[0];
+        if (d.value > 180) return this.colors[0];
         else if (d.value > 70) return this.colors[1];
         else if (d.value > 0) return this.colors[2];
         return this.colors[3];
@@ -164,7 +164,7 @@ export default class DetailedVisualization {
         // if (d.source === 'tidepool') return 'none';
         // if (d.source === 'googlesheet') return '#333';
         // if (d.source === 'nightscout') return 'none';
-        if (d.value > 200) return this.colors[0];
+        if (d.value > 180) return this.colors[0];
         else if (d.value > 70) return this.colors[1];
         else if (d.value > 0) return this.colors[2];
         return this.colors[3];
@@ -227,7 +227,7 @@ export default class DetailedVisualization {
     eventSymbolsEnter.append('path')
       .attr('d', d3.symbol().type(d3.symbolTriangle))
       .attr('fill', (d) => {
-        if (d.Glucose > 200) return this.colors[0];
+        if (d.Glucose > 180) return this.colors[0];
         else if (d.Glucose > 70) return this.colors[1];
         else if (d.Glucose > 0) return this.colors[2];
         return this.colors[3];

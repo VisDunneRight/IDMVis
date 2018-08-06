@@ -13,11 +13,13 @@ function numberToTableStr(number) {
   return number.toFixed(1);
 }
 
+this.colors = ['#8a84c8', '#82d6c3', '#d95f02', '#999999'];
+
 function glucoseLevelToColor(glucose) {
-  if (glucose > 200) return '#ffbb51';
-  if (glucose > 70) return '#73b985';
-  if (glucose > 0) return '#ff6567';
-  return '#999999';
+  if (glucose > 180) return colors[0];
+  if (glucose > 70) return colors[1];
+  if (glucose > 0) return colors[2];
+  return colors[3];
 }
 
 function tabulate(allData, start, numDays) {

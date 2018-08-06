@@ -235,7 +235,7 @@ class GlucoseVisualization {
       .attr('cx', d => this.alignment.convertToX(secondInDay(d.time), nthDay))
       .attr('cy', d => yOffset - ((d.value / 30) + 0))
       .attr('fill', (d) => {
-        if (d.value > 200) return this.colors[0];
+        if (d.value > 180) return this.colors[0];
         else if (d.value > 70) return this.colors[1];
         else if (d.value > 0) return this.colors[2];
         return this.colors[3];
