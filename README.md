@@ -19,11 +19,13 @@ You can see a live demo at [visdunneright.github.io/IDMVis/public/](https://visd
 # Legend 
 ![IDMvis](https://github.com/VisDunneRight/IDMVis/blob/master/public/T1D_about.png?raw=true "Title")
 
-# Preprint 
-https://github.com/VisDunneRight/IDMVis/blob/master/IDMVis_IEEEVIS18_preprint.pdf
+# Publication 
+
+Yixuan Zhang, Kartik Chanana, and Cody Dunne, "[IDMVis: Temporal Event Sequence Visualization forType 1 Diabetes Treatment Decision Support](https://github.com/VisDunneRight/IDMVis/blob/master/IDMVis_IEEEVIS18_preprint.pdf)", IEEE Transactions on Visualization and Computer Graphics (Proc. Information Visualization 2017), vol. 25, no. 01, Jan. 2019. Preprint.
 
 # Authors 
-Yixuan Zhang, Kartik Chanana, and Cody Dunne
+[Yixuan Zhang](https://www.ccis.northeastern.edu/people/yixuan-janice-zhang/), [Kartik Chanana](https://www.linkedin.com/in/kartikchanana/), and [Cody Dunne](https://cody.ccis.northeastern.edu/)
+Northeastern University [Data Visualization @ CCIS](https://visualization.ccis.northeastern.edu/)
 
 # License
-This project is licensed under the MIT License. 
+This project is licensed under the MIT License.
