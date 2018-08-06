@@ -99,8 +99,8 @@ function tabulate(allData, start, numDays) {
 }
 
 function getTimeSpan() {
-  const start = moment('2017-02-08');
-  const end = moment('2017-12-08');
+  const start = moment('2017-08-23');
+  const end = moment('2017-09-05');
   $('#start-date').attr({
     min: dateToStr(start),
     max: dateToStr(end),
