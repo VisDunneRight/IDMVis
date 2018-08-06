@@ -25,6 +25,7 @@ Yixuan Zhang, Kartik Chanana, and Cody Dunne, "[IDMVis: Temporal Event Sequence 
 
 # Authors 
 [Yixuan Zhang](https://www.ccis.northeastern.edu/people/yixuan-janice-zhang/), [Kartik Chanana](https://www.linkedin.com/in/kartikchanana/), and [Cody Dunne](https://cody.ccis.northeastern.edu/)
+
 Northeastern University [Data Visualization @ CCIS](https://visualization.ccis.northeastern.edu/)
 
 # License
