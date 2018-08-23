@@ -11,6 +11,9 @@ You can see a live demo at [visdunneright.github.io/IDMVis/public/](https://visd
 or a five minute demo video:
 [![IDMVis Demo Video](youtube_image.png)](https://youtu.be/Omc2cNqG7b4 "IDMVis demo video")
 
+<a href="https://youtu.be/Omc2cNqG7b4"><img alt="IDMVis Demo Video" src="youtube_image.png" width="300"></a>
+
+
 # Setup
 - Open terminal/command prompt.
 - Fork and clone [the github repository](https://github.com/VisDunneRight/IDMVis) to your local system in a dedicated folder.
