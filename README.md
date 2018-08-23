@@ -6,12 +6,10 @@ IDMVis is built with JavaScript and the [d3.js](https://d3js.org/) library.
 
 # Introductory and Demo Videos
 You can see a live demo at [visdunneright.github.io/IDMVis/public/](https://visdunneright.github.io/IDMVis/public/) and watch our 30 second teaser video:
-[![IDMVis VIS 2018 FFWD Video](youtube_ffwd_image.png)](https://www.youtube.com/watch?v=9y7FEscshYc "IDMVis VIS 2018 FFWD video")
+<a href="https://www.youtube.com/watch?v=9y7FEscshYc"><img alt="IDMVis VIS 2018 FFWD Video" src="youtube_ffwd_image.png" width="400"></a>
 
 or a five minute demo video:
-[![IDMVis Demo Video](youtube_image.png)](https://youtu.be/Omc2cNqG7b4 "IDMVis demo video")
-
-<a href="https://youtu.be/Omc2cNqG7b4"><img alt="IDMVis Demo Video" src="youtube_image.png" width="300"></a>
+<a href="https://youtu.be/Omc2cNqG7b4"><img alt="IDMVis Demo Video" src="youtube_image.png" width="400"></a>
 
 
 # Setup
@@ -26,7 +24,7 @@ or a five minute demo video:
 
 # Publication 
 
-Yixuan Zhang, Kartik Chanana, and Cody Dunne, "[IDMVis: Temporal Event Sequence Visualization forType 1 Diabetes Treatment Decision Support](https://github.com/VisDunneRight/IDMVis/blob/master/IDMVis_IEEEVIS18_preprint.pdf)", IEEE Transactions on Visualization and Computer Graphics (Proc. Information Visualization 2017), vol. 25, no. 1, Jan. 2019. doi: [10.1109/TVCG.2018.2865076](https://doi.org/10.1109/TVCG.2018.2865076)
+Yixuan Zhang, Kartik Chanana, and Cody Dunne, "[IDMVis: Temporal Event Sequence Visualization forType 1 Diabetes Treatment Decision Support](IDMVis_IEEEVIS18_preprint.pdf)", IEEE Transactions on Visualization and Computer Graphics (Proc. Information Visualization 2017), vol. 25, no. 1, Jan. 2019. doi: [10.1109/TVCG.2018.2865076](https://doi.org/10.1109/TVCG.2018.2865076)
 
 # Authors 
 [Yixuan Zhang](https://www.ccis.northeastern.edu/people/yixuan-janice-zhang/), [Kartik Chanana](https://www.linkedin.com/in/kartikchanana/), and [Cody Dunne](https://cody.ccis.northeastern.edu/)
