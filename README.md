@@ -4,9 +4,11 @@ It is designed to help clinicians perform temporal inference tasks:
 specifically for recommending adjustments to patient insulin protocol, diet, and behavior. 
 IDMVis is built with JavaScript and the [d3.js](https://d3js.org/) library.
 
-# Demo
-You can see a live demo at [visdunneright.github.io/IDMVis/public/](https://visdunneright.github.io/IDMVis/public/) and watch our demo video:
+# Introductory and Demo Videos
+You can see a live demo at [visdunneright.github.io/IDMVis/public/](https://visdunneright.github.io/IDMVis/public/) and watch our 30 second teaser video:
+[![IDMVis VIS 2018 FFWD Video](youtube_ffwd_image.png)](https://www.youtube.com/watch?v=9y7FEscshYc "IDMVis VIS 2018 FFWD video")
 
+or a five minute demo video:
 [![IDMVis Demo Video](youtube_image.png)](https://youtu.be/Omc2cNqG7b4 "IDMVis demo video")
 
 # Setup
