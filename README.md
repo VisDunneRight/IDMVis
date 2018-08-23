@@ -22,7 +22,7 @@ or a five minute demo video:
 - Visit [http://localhost:8000/](http://localhost:8000/) in your browser.
 
 # Legend 
-![IDMvis](https://github.com/VisDunneRight/IDMVis/blob/master/public/T1D_about.png?raw=true "Title")
+<a href="https://github.com/VisDunneRight/IDMVis/blob/master/public/T1D_about.png?raw=true"><img alt="IDMVis Legend" src="public/T1D_about.png" width="400"></a>
 
 # Publication 
 
