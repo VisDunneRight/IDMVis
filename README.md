@@ -28,6 +28,9 @@ or a five minute demo video:
 
 Yixuan Zhang, Kartik Chanana, and Cody Dunne, "[IDMVis: Temporal Event Sequence Visualization forType 1 Diabetes Treatment Decision Support](IDMVis_IEEEVIS18_preprint.pdf)", IEEE Transactions on Visualization and Computer Graphics (Proc. Information Visualization 2017), vol. 25, no. 1, Jan. 2019. doi: [10.1109/TVCG.2018.2865076](https://doi.org/10.1109/TVCG.2018.2865076)
 
+# VIS18 Presentation 
+Slides "[18VIS slides](IEEEVis_2018_IDMVis.pdf)"
+
 # Authors 
 [Yixuan Zhang](https://www.ccis.northeastern.edu/people/yixuan-janice-zhang/), [Kartik Chanana](https://www.linkedin.com/in/kartikchanana/), and [Cody Dunne](https://cody.ccis.northeastern.edu/)
 
