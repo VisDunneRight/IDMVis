@@ -37,4 +37,4 @@ Please see [slides from the presentation](IEEEVis_2018_IDMVis.pdf) and the [pres
 Northeastern University [Data Visualization @ CCIS](https://visualization.ccis.northeastern.edu/)
 
 # License
-This project is licensed under the MIT License.
+This project is open source under [the MIT License](https://opensource.org/licenses/MIT).
