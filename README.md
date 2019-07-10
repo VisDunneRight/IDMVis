@@ -26,10 +26,10 @@ or a five minute demo video:
 
 # Publication 
 
-Yixuan Zhang, Kartik Chanana, and Cody Dunne, "[IDMVis: Temporal Event Sequence Visualization for Type 1 Diabetes Treatment Decision Support](IDMVis_IEEEVIS18_preprint.pdf)", IEEE Transactions on Visualization and Computer Graphics (Proc. Information Visualization 2018), vol. 25, no. 1, Jan. 2019. doi: [10.1109/TVCG.2018.2865076](https://doi.org/10.1109/TVCG.2018.2865076)
+Yixuan Zhang, Kartik Chanana, and Cody Dunne, "[IDMVis: Temporal Event Sequence Visualization for Type 1 Diabetes Treatment Decision Support](IDMVis_IEEEVIS18.pdf)", IEEE Transactions on Visualization and Computer Graphics (Proc. Information Visualization 2018), vol. 25, no. 1, Jan. 2019. doi: [10.1109/TVCG.2018.2865076](https://doi.org/10.1109/TVCG.2018.2865076)
 
 # VIS 2018 Presentation 
-Please see [slides from the presentation](IEEEVis_2018_IDMVis.pdf) and the [presentation recording](https://vimeo.com/299852822).
+Please see [slides from the presentation](IDMVis_IEEEVIS18_slides.pdf) and the [presentation recording](https://vimeo.com/299852822).
 
 # Authors 
 [Yixuan Zhang](https://www.ccis.northeastern.edu/people/yixuan-janice-zhang/), [Kartik Chanana](https://www.linkedin.com/in/kartikchanana/), and [Cody Dunne](https://cody.ccis.northeastern.edu/)
@@ -38,3 +38,7 @@ Northeastern University [Data Visualization @ CCIS](https://visualization.ccis.n
 
 # License
 This project is open source under [the MIT License](https://opensource.org/licenses/MIT).
+
+# Acknowledgements
+This material is based upon work supported by the National Science Foundation under Grant No. 1755901. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the 
+author(s) and do not necessarily reflect the views of the National Science Foundation.
