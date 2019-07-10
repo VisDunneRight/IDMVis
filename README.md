@@ -39,6 +39,6 @@ Northeastern University [Data Visualization @ CCIS](https://visualization.ccis.n
 # License
 This project is open source under [the MIT License](https://opensource.org/licenses/MIT).
 
-# Acknowledgements
-This material is based upon work supported by the National Science Foundation under Grant No. 1755901. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the 
+# Acknowledgments
+This material is based upon work supported by the National Science Foundation under [Grant No. 1755901](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1755901). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the 
 author(s) and do not necessarily reflect the views of the National Science Foundation.
