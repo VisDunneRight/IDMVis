@@ -64,7 +64,7 @@ function numberToTableStr(number) {
   return number.toFixed(1);
 }
 
-var colors = ['#8a84c8', '#82d6c3', '#d95f02', '#999999'];
+undefined.colors = ['#8a84c8', '#82d6c3', '#d95f02', '#999999'];
 
 function glucoseLevelToColor(glucose) {
   if (glucose > 180) return colors[0];

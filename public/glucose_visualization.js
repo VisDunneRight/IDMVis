@@ -5,8 +5,9 @@ import {
 
 export default class GlucoseVisualization {
   constructor(alignment) {
+    this.colors = ['#8a84c8', '#c986bb', '#82d6c3', '#d95f02','#ffa200' ,'#999999']; // five-color scheme
     // this.colors = ['#ffbb51', '#73b985', '#ff6567', '#999999'];
-    this.colors = ['#8a84c8', '#82d6c3', '#d95f02', '#999999'];
+    //this.colors = ['#8a84c8', '#82d6c3', '#d95f02', '#999999']; // color-blindness safe
     this.container = $('#vis-canvas-container');
     this.canvas = d3.select('#vis-canvas');
     this.tooltip = d3.select('#tooltip');
@@ -224,10 +225,17 @@ export default class GlucoseVisualization {
       .attr('cx', d => this.alignment.convertToX(secondInDay(d.time), nthDay))
       .attr('cy', d => yOffset - ((d.value / 30) + 0))
       .attr('fill', (d) => {
-        if (d.value > 180) return this.colors[0];
-        else if (d.value > 70) return this.colors[1];
-        else if (d.value > 0) return this.colors[2];
-        return this.colors[3];
+          if (d.value > 250) return this.colors[0];
+          if (d.value > 180) return this.colors[1];
+          if (d.value > 70) return this.colors[2];
+          if (d.value > 54) return this.colors[3];
+          if (d.value > 0) return this.colors[4];
+          return this.colors[5];
+
+        // if (d.value > 180) return this.colors[0];
+        // else if (d.value > 70) return this.colors[1];
+        // else if (d.value > 0) return this.colors[2];
+        // return this.colors[3];
       })
       .attr('opacity', () => {
         if (alignParam.alignFailed) return 0.5;
